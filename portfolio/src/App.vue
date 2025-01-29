@@ -1,10 +1,3 @@
-<script setup>
-import { ref } from "vue";
-
-const message = ref("wisam");
-</script>
-<template>
-  <div>
-    {{ message }}
-  </div>
-</template>
+<script setup></script>
+<template></template>
+<style scoped></style>
