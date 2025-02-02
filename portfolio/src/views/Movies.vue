@@ -1,5 +1,22 @@
-<script setup></script>
+<script setup>
+import { ref, onMounted } from "vue";
+import axios from "axios";
+import MovieCard from "../components/MovieCard.vue";
+
+const movieList = ref([]);
+
+onMounted(async () => {
+  try {
+    const response = await axios.get("http://localhost:3000/movies");
+    movieList.value = response.data;
+  } catch (error) {
+    console.log("Erro fetching data", error);
+  }
+});
+</script>
 <template>
   <h1>Movies</h1>
+  <div class="grid grid-cols-4 gap-1">
+    <MovieCard v-for="movie in movieList" :key="movie.id" :movie="movie" />
+  </div>
 </template>
-<style scoped></style>
