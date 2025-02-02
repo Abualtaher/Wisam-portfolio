@@ -1,5 +1,7 @@
 <script setup></script>
 <template>
-  <RouterView />
+  <div class="max-w-7xl mx-auto">
+    <RouterView />
+  </div>
 </template>
 <style scoped></style>
