@@ -16,6 +16,7 @@ onMounted(async () => {
 </script>
 <template>
   <h1 class="pt-20 dark:text-white">Movies</h1>
+  <p class="dark:text-white">Show case Axio</p>
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
     <MovieCard v-for="movie in movieList" :key="movie.id" :movie="movie" />
   </div>
