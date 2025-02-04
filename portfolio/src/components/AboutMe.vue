@@ -93,14 +93,14 @@ const education = ref([
   {
     id: 1,
     School: "school 1",
-    program: "Software Engineer",
-    year: "2022",
+    program: "Front-end developer",
+    year: "2024-2026",
   },
   {
     id: 2,
     School: "school 2",
-    program: "Software Engineer",
-    year: "2020",
+    program: "Graphic Designer",
+    year: "2008",
   },
 ]);
 </script>
