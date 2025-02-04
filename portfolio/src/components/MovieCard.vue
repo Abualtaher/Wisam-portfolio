@@ -1,5 +1,6 @@
 <script setup>
-defineProps({
+import { defineProps } from "vue";
+const props = defineProps({
   movie: Object,
 });
 </script>
