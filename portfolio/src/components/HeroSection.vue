@@ -48,7 +48,7 @@
               >
             </button>
             <button
-              class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
+              class="border border-orange-400 px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
             >
               <div
                 class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative"
@@ -84,7 +84,7 @@
                 <a
                   href="/src/assets/cv/Wisam-Cv.pdf"
                   download="Wisam-Cv.pdf"
-                  class="pl-2 text-primary"
+                  class="pl-2 text-white"
                 >
                   Download resume</a
                 >

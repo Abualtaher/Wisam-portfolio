@@ -43,7 +43,7 @@
         <h2 class="text-4xl font-bold text-white md:text-center text-left mb-4">
           More
           <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary"
+            class="text-4xl bg-clip-text bg-gradient-to-r from-primary to-secondary"
             >About</span
           >
           Me
@@ -57,28 +57,28 @@
           similique!
         </p>
         <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
-          <div
+          <!-- <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               +200
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
-          </div>
-          <div
+          </div> -->
+          <!-- <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               +300
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Project</p>
-          </div>
+          </div> -->
 
           <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
-              +7
+              +1
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Years Experience</p>
           </div>
@@ -100,7 +100,7 @@ const education = ref([
     id: 2,
     School: "school 2",
     program: "Graphic Designer",
-    year: "2008",
+    year: "2008-2009",
   },
 ]);
 </script>
