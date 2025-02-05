@@ -81,7 +81,11 @@
                   </svg>
                   <div class="download-loader text-white hidden"></div>
                 </div>
-                <a href="#" download="#" class="pl-2 text-primary">
+                <a
+                  href="/src/assets/cv/Wisam-Cv.pdf"
+                  download="Wisam-Cv.pdf"
+                  class="pl-2 text-primary"
+                >
                   Download resume</a
                 >
               </div>
