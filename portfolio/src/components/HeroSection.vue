@@ -23,7 +23,7 @@
               <span
                 class="text-transparent bg-clip-text bg-gradient-to-b from-primary to-red-500"
               >
-                Wisam t
+                Wisam
               </span>
             </h1>
           </div>
