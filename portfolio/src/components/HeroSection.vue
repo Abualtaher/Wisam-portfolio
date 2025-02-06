@@ -21,7 +21,7 @@
             >
               Hi, I'm
               <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500"
+                class="text-transparent bg-clip-text bg-gradient-to-b from-primary to-red-500"
               >
                 Wisam
               </span>
