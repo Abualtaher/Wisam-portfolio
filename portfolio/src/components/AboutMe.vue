@@ -16,7 +16,7 @@
           <div
             v-for="element in education"
             :key="element.id"
-            class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
+            class="border border-orange-900 flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
           >
             <div class="w-1/4">
               <img
@@ -75,7 +75,7 @@
           </div> -->
 
           <div
-            class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
+            class="border border-red-900 text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
               +1

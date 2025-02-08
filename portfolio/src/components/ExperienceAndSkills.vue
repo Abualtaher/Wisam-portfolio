@@ -27,7 +27,7 @@
           </div>
           <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
             <div
-              class="h-1 rounded-full bg-primary"
+              class="h-1 rounded-full bg-orange-400"
               :style="`width :${skill.width}`"
             ></div>
           </div>
@@ -43,7 +43,7 @@
           <div
             v-for="element in Experinces"
             :key="element.id"
-            class="flex items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]"
+            class="border border-orange-400 flex items-center rounded-xl p-4 bg-[#111a3e] shadow-lg border border-[#1f1641]"
           >
             <div class="w-1/4">
               <img
@@ -87,7 +87,7 @@ const Skills = ref([
   {
     id: 4,
     name: "React",
-    width: "91%",
+    width: "50%",
   },
   {
     id: 4,
