@@ -2,5 +2,7 @@
 import MyLinks from "../components/MyLinks.vue";
 </script>
 <template>
-  <MyLinks />
+  <div class="max-w-7xl mx-auto">
+    <MyLinks />
+  </div>
 </template>
