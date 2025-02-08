@@ -38,7 +38,7 @@
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
           >
             <button
-              class="border border-red-900 px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center"
+              class="border border-red-900 px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center shadow-lg"
             >
               <span
                 class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"
@@ -100,7 +100,7 @@
               class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl"
             ></div>
             <div
-              class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary"
+              class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-orange-400"
             >
               <img
                 src="/src/assets/imges/1738239563628.jpeg"
