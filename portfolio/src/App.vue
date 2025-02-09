@@ -1,6 +1,6 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
-import Footer from "./components/Footer.vue";
+import BaseEnd from "./components/BaseEnd.vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init({ duration: 1000 });
@@ -10,6 +10,6 @@ AOS.init({ duration: 1000 });
     <RouterView />
     <Navbar />
   </div>
-  <Footer />
+  <BaseEnd />
 </template>
 <style scoped></style>

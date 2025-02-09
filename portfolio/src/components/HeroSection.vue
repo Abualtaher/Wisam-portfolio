@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-35 relative w-full" data-aos="flip-up">
+  <section class="mt-0 sm:mt-40 relative w-full" data-aos="flip-up">
     <div class="absolute top-0 inset-x-0 h-64 flex items-start">
       <div
         class="h-24 w-2/3 bg-gradient-to-br from-[#570cac] blur-2xl invisible opacity-40"
@@ -30,9 +30,13 @@
           <p
             class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            eius laboriosam ratione corporis tempore facilis, laborum, debitis
-            dolorem accusamus accusantium modi obcaecati?
+            Welcome to my portfolio website! This project is built with Vue.js
+            and styled with Tailwind CSS, serving as a showcase of my current
+            skills and progress as a developer. I hope you enjoy exploring my
+            work and the different applications I've created. Please keep in
+            mind that I'm still on my learning journey, striving to improve and
+            grow with each project. Your feedback and support mean a lot to me
+            as I continue to develop my craft!
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -43,8 +47,10 @@
               <span
                 class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"
               ></span>
-              <span class="relative flex items-center justify-center text-white"
-                >Hire Me</span
+              <span
+                class="relative flex items-center justify-center text-white"
+              >
+                <a href="mailto:wisamaltaher@gmail.com"> Hire Me</a></span
               >
             </button>
             <button

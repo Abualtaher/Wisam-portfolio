@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      <div data-aos="flip-left">
+      <div class="mb-30" data-aos="flip-left">
         <h2
           class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8"
         >
@@ -77,17 +77,17 @@ const Skills = ref([
   {
     id: 1,
     name: "HTmL & CSS",
-    width: "85%",
+    width: "70%",
   },
   {
     id: 2,
     name: "JavaScript",
-    width: "70%",
+    width: "50%",
   },
   {
     id: 3,
     name: "Vue.js",
-    width: "98%",
+    width: "50%",
   },
   {
     id: 4,
@@ -96,8 +96,13 @@ const Skills = ref([
   },
   {
     id: 4,
+    name: "Full Stack",
+    width: "50%",
+  },
+  {
+    id: 4,
     name: "figma",
-    width: "91%",
+    width: "80%",
   },
 ]);
 

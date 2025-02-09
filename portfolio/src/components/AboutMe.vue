@@ -12,7 +12,7 @@
         <h2 class="text-4xl font-bold text-white text-left mb-8">
           My Education
         </h2>
-        <div class="space-y-8 py-8">
+        <div data-aos="flip-right" class="space-y-8 py-8">
           <div
             v-for="element in education"
             :key="element.id"
@@ -48,6 +48,7 @@
           >
           Me
         </h2>
+
         <p class="text-base lg:text-lg mt-8 py-8">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui facere
           libero cupiditate fugit minima voluptates numquam est eos voluptate
@@ -56,6 +57,7 @@
           officia architecto fugit, cum dolorum eos dolore quaerat quis nobis id
           similique!
         </p>
+
         <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
           <!-- <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
