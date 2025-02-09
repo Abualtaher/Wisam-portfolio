@@ -18,7 +18,12 @@
             >Skills</span
           >
         </h2>
-        <div class="mt-8" v-for="skill in Skills" :key="skill.id">
+        <div
+          data-aos="fade-right"
+          class="mt-8"
+          v-for="skill in Skills"
+          :key="skill.id"
+        >
           <div class="flex items-end justify-between" data-aos="fade-right">
             <h4 class="font-semibold uppercase text-white">
               {{ skill.name }}
