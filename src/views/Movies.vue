@@ -1,21 +1,17 @@
 <script setup>
 import { ref, onMounted } from "vue";
-
+import axios from "axios";
 import MovieCard from "../components/MovieCard.vue";
 
 const movieList = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch("http://localhost:3000/movies");
-    if (!response.ok) {
-      throw new Error(`Network response was not ok: ${response.statusText}`);
-    }
-    const data = await response.json();
-    console.log(data);
-    movieList.value = data;
+    const response = await axios.get("/db.json");
+    movieList.value = response.data;
+    console.log(movieList.value);
   } catch (error) {
-    console.error("Error fetching data:", error);
+    console.error("Error fetching", error);
   }
 });
 </script>
@@ -39,7 +35,7 @@ onMounted(async () => {
   </p>
   <section class="relative w-full" data-aos="zoom-in-up">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
-      <MovieCard v-for="movie in movieList" :key="movie.id" :movie="movie" />
+      <movie-card v-for="movie in movieList" :key="movie.id" :movie="movie" />
     </div>
   </section>
 </template>
