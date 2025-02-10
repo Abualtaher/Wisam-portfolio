@@ -7,11 +7,12 @@ const movieList = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch("public/wisam.json");
+    const response = await fetch("/wisam.json");
     if (!response.ok) {
       throw new Error(`Network response was not ok: ${response.statusText}`);
     }
     const data = await response.json();
+    console.log(data);
     movieList.value = data;
   } catch (error) {
     console.error("Error fetching data:", error);

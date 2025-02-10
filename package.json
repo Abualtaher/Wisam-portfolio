@@ -13,7 +13,7 @@
     "aos": "^2.3.4",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
-    "flowbite": "^3.1.1",
+    "flowbite": "^3.1.2",
     "json-server": "^1.0.0-beta.3",
     "node": "^18.20.6",
     "np": "^10.2.0",
