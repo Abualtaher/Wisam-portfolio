@@ -1,16 +1,20 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import axios from "axios";
+
 import MovieCard from "../components/MovieCard.vue";
 
 const movieList = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await axios.get("http://localhost:3000/movies");
-    movieList.value = response.data;
+    const response = await fetch("public/wisam.json");
+    if (!response.ok) {
+      throw new Error(`Network response was not ok: ${response.statusText}`);
+    }
+    const data = await response.json();
+    movieList.value = data;
   } catch (error) {
-    console.log("Erro fetching data", error);
+    console.error("Error fetching data:", error);
   }
 });
 </script>
