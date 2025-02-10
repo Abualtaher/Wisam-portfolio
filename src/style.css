@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+body {
+  background-color: rgba(6, 5, 23, 0.91);
+}

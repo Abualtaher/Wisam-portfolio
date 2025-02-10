@@ -1,0 +1,32 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Lion King",
+      "year": "2019",
+      "runtime": "118 min",
+      "poster": "https://m.media-amazon.com/images/I/51+FPXJo7yL._AC_SL1000_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Spiderman",
+      "year": "2018",
+      "runtime": "90 min",
+      "poster": "https://m.media-amazon.com/images/I/617+dUQcqpL._AC_SL1000_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Lost HighWay",
+      "year": "2010",
+      "runtime": "95 min",
+      "poster": "https://m.media-amazon.com/images/I/519jGmvcH4L._SL1491_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Memento",
+      "year": "2005",
+      "runtime": "95 min",
+      "poster": "https://m.media-amazon.com/images/I/61aSBSpu5KL._AC_SL1129_.jpg"
+    }
+  ]
+}
