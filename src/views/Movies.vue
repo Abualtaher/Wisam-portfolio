@@ -7,7 +7,7 @@ const movieList = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch("/wisam.json");
+    const response = await fetch("http://localhost:3000/movies");
     if (!response.ok) {
       throw new Error(`Network response was not ok: ${response.statusText}`);
     }
