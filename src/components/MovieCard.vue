@@ -9,7 +9,7 @@ const props = defineProps({
     data-aos="flip-right"
     class="m-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
   >
-    <a href="#">
+    <a href="">
       <img class="rounded-t-lg" :src="movie.poster" alt="A lion and his son" />
     </a>
     <div class="p-5">
