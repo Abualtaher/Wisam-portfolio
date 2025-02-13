@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-0 sm:mt-25 relative w-full" data-aos="flip-up">
+  <section class="mt-0 sm:mt-20 relative w-full" data-aos="flip-up">
     <div class="absolute top-0 inset-x-0 h-64 flex items-start">
       <div
         class="h-24 w-2/3 bg-gradient-to-br from-[#570cac] blur-2xl invisible opacity-40"

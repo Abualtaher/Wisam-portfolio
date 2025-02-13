@@ -17,12 +17,12 @@ onMounted(async () => {
 </script>
 <template>
   <h1
-    class="mt-20 m-5 text-4xl font-extrabold dark:text-white"
+    class="mt-20 text-4xl font-extrabold dark:text-white"
     data-aos="fade-right"
   >
-    Axios / json-server
+    Axios
   </h1>
-  <p class="dark:text-white m-5" data-aos="fade-right">
+  <p class="dark:text-white m-3" data-aos="fade-right">
     In my latest project, I utilized Axios to fetch data from a JSON server,
     allowing for dynamic and interactive content retrieval. The fetched data is
     subsequently displayed on beautifully designed cards using Tailwind CSS,
