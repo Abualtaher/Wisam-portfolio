@@ -8,7 +8,7 @@ const movieList = ref([]);
 onMounted(async () => {
   try {
     const response = await axios.get("/db.json");
-    movieList.value = response.data;
+    movieList.value = response.data.movies;
     console.log(movieList.value);
   } catch (error) {
     console.error("Error fetching", error);
