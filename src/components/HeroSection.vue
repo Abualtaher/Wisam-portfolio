@@ -106,7 +106,7 @@
               class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl"
             ></div>
             <div
-              class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-orange-400"
+              class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 shadow-lg rounded-2xl border border-orange-400"
             >
               <img
                 src="/src/assets/imges/1738239563628.jpeg"
@@ -114,7 +114,7 @@
                 width="500"
                 height="auto"
                 loading="lazy"
-                class="w-full h-full rounded-full object-cover"
+                class="w-full h-full object-cover rounded-2xl"
               />
             </div>
           </div>
