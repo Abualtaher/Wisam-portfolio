@@ -19,7 +19,7 @@
     determination to grow as a developer.
   </p>
 
-  <div class="flex justify-center items-center">
+  <div class="flex justify-center items-center" data-aos="fade-up">
     <a
       href="https://soft-marigold-2cf29d.netlify.app/"
       target="_blank"
@@ -44,7 +44,7 @@
       </div>
     </a>
   </div>
-  <div class="flex justify-center items-center">
+  <div class="flex justify-center items-center" data-aos="fade-up">
     <a
       href="https://neon-jelly-b466c6.netlify.app/"
       target="_blank"
