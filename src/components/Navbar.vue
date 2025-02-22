@@ -7,6 +7,10 @@ const isNavbarOpen = ref(false);
 const toggleNavbar = () => {
   isNavbarOpen.value = !isNavbarOpen.value;
 };
+
+const closeNavbar = () => {
+  isNavbarOpen.value = false;
+};
 </script>
 
 <template>
@@ -63,6 +67,7 @@ const toggleNavbar = () => {
               to="/"
               class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white"
               aria-current="page"
+              @click="closeNavbar"
               >Home</RouterLink
             >
           </li>
@@ -71,6 +76,7 @@ const toggleNavbar = () => {
               to="/About"
               class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white"
               aria-current="page"
+              @click="closeNavbar"
               >Projects</RouterLink
             >
           </li>
@@ -79,6 +85,7 @@ const toggleNavbar = () => {
               to="/Movies"
               class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white"
               aria-current="page"
+              @click="closeNavbar"
               >Movies</RouterLink
             >
           </li>
