@@ -50,12 +50,14 @@
         </h2>
 
         <p class="text-base lg:text-lg mt-8 py-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui facere
-          libero cupiditate fugit minima voluptates numquam est eos voluptate
-          saepe eius amet harum provident accusamus omnis sit in cum incidunt
-          dolorum, necessitatibus illo reiciendis ipsam debitis velit! Itaque
-          officia architecto fugit, cum dolorum eos dolore quaerat quis nobis id
-          similique!
+          I am currently studying front-end development, building upon my
+          background in graphic design. I have a strong passion for creating
+          visually appealing and user-friendly websites. I am patient and always
+          seeking new ways to improve my skills and knowledge. With an
+          open-minded approach and eagerness to learn, I thrive in dynamic
+          environments. I maintain a stable work pace and consistently deliver
+          my projects on time, ensuring quality and attention to detail in
+          everything I do.
         </p>
 
         <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
@@ -80,7 +82,7 @@
             class="border border-red-900 text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
-              +1
+              +0
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Years Experience</p>
           </div>

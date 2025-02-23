@@ -109,15 +109,15 @@ const Skills = ref([
 const Experinces = ref([
   {
     id: 1,
-    role: "Software Engineer",
-    company: "Microsoft",
-    date: "Mar 2023 - September 2024",
+    role: "Frontend Developer ",
+    company: "IT Högskola",
+    date: "September 2024 - Juni 2026",
   },
   {
     id: 2,
-    role: "Frontend Developer",
-    company: "Spotify",
-    date: "Mar 2022 - September 2023",
+    role: "Logistik med arbetare",
+    company: "Bauhaus",
+    date: "Feb 2020 - ongoin",
   },
 ]);
 </script>
