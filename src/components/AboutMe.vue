@@ -104,7 +104,7 @@ const education = ref([
     id: 2,
     School: "school 2",
     program: "Graphic Designer",
-    year: "2008-2009",
+    year: "2007-2009",
   },
 ]);
 </script>
