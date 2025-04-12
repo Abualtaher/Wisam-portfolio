@@ -104,6 +104,11 @@ const Skills = ref([
     name: "figma",
     width: "80%",
   },
+  {
+    id: 4,
+    name: "React Native",
+    width: "50%",
+  },
 ]);
 
 const Experinces = ref([
@@ -117,7 +122,7 @@ const Experinces = ref([
     id: 2,
     role: "Logistik med arbetare",
     company: "Bauhaus",
-    date: "Feb 2020 - ongoin",
+    date: "Feb 2020 - Ongoing",
   },
 ]);
 </script>
