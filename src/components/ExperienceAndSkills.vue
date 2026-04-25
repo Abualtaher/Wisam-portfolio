@@ -124,5 +124,11 @@ const Experinces = ref([
     company: "Bauhaus",
     date: "Feb 2020 - Ongoing",
   },
+  {
+    id: 3,
+    role: "Frontend Developer Intern",
+    company: "Postnord",
+    date: "Sep 2025 - Juni 2026",
+  },
 ]);
 </script>
