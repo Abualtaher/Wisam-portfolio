@@ -82,22 +82,22 @@ const Skills = ref([
   {
     id: 2,
     name: "JavaScript",
-    width: "50%",
+    width: "70%",
   },
   {
     id: 3,
     name: "Vue.js",
-    width: "50%",
+    width: "80%",
   },
   {
     id: 4,
     name: "React",
-    width: "50%",
+    width: "70%",
   },
   {
     id: 4,
     name: "Full Stack",
-    width: "50%",
+    width: "60%",
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ const Skills = ref([
   {
     id: 4,
     name: "React Native",
-    width: "50%",
+    width: "60%",
   },
 ]);
 
