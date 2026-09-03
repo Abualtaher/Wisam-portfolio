@@ -88,8 +88,8 @@
                   <div class="download-loader text-white hidden"></div>
                 </div>
                 <a
-                  href="/src/assets/cv/Wisam-Cv.pdf"
-                  download="Wisam-Cv.pdf"
+                  href="/src/assets/cv/Wisam_Al-Taher_Developer_CV.pdf"
+                  download="Wisam_Al-Taher_Developer_CV.pdf"
                   class="pl-2 text-white"
                 >
                   Download resume</a
