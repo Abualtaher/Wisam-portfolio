@@ -27,7 +27,7 @@
     >
       <img
         class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-        src="/src/assets/imges/pagepilot.jpg"
+        src="/src/assets/imges/95fdcaf5ee1f5a3c49c3e37cb4d16b2dcdf60194190b591154a221e2e56f4d61.png"
         alt=""
       />
       <div class="flex flex-col justify-between p-4 leading-normal">
