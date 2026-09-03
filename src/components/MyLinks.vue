@@ -27,17 +27,19 @@
     >
       <img
         class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-        src="/src/assets/imges/Todolist.jpg"
+        src="/src/assets/imges/pagepilot.jpg"
         alt=""
       />
       <div class="flex flex-col justify-between p-4 leading-normal">
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
-          To-Do-List
+          PagePilot CMS
         </h5>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          This app is made with React and it is my first.
+          A full-stack CMS that lets users edit and manage landing page content
+          through a simple admin dashboard — no coding required. Built with
+          React, Node.js, and Express.
         </p>
       </div>
     </a>
